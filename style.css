@@ -1,0 +1,85 @@
+/*This is for header container */
+.title-info {
+  background: black;
+  color: lightgrey;
+  height: 80px;
+  margin-top: 0px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* making total background collor & size */
+.inner-body {
+  background: #fffbb9;
+  margin-top: -40px;
+  margin-bottom: -150px;
+  padding-bottom: 100px;
+}
+
+/* to array jonathan image & name & location */
+.intro {
+  /* display:flex; //expands items to fill available free space or shrinks them to prevent overflow.*/
+  display: flex;
+  /* to make the expanding as row */
+  flex-direction: row;
+  /* making little bit of space with border & image */
+  padding-left:  10px;
+}
+/* array jonathan name & location */
+.intro-info {
+  display: flex;
+  /* to make the expanding as column */
+  flex-direction: column;
+  /* making space between image & words*/
+  padding-left: 20px;
+  }
+/* footer specification */
+.footer {
+  display: flex;
+  /* to array as row in the footer */
+  flex-direction: row;
+  /* kind of make this footer space more flexibly  */
+  align-content: space-around;
+  background: black;
+  color: lightgrey;
+  margin-top: 110px;
+}
+
+/* array email information */
+.contact-info {
+  display: flex;
+    /* to make the expanding as column */
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+/* email Pseudo-class */
+a:link    { color: white;  }
+a:visited { color: red;   }
+a:hover   { color: green; }
+a:active  { color: pink;  }
+
+/* space between link */
+.contact-info li {
+  margin-bottom: 15px;
+}
+/* giving space between border and jonathan img */
+.img-jonathan {
+  margin-left: 20px;
+
+}
+/* Abhout jonathan specificaiton */
+.about-char {
+  color: #0433ff;
+  font-family: Tahoma;
+  font-size: 30px;
+
+}
+/* my passion & willingness & interest paragraph specification */
+.about-content {
+  font-size: 20px;
+   border: 1px solid #000;
+}
